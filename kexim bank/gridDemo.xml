@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+    
+	<test name="anusha node">
+		<parameter name="nodeURL" value="http://192.168.0.157:5555/wd/hub"></parameter>
+		<parameter name="br" value="chrome"></parameter>
+		<classes>
+			<class name="in.srssprojects.admin.GridExecution">
+			    <methods>
+			        <include name="loginAsAdmin"></include>
+			        <!-- <include name="branchCreationWithDData"></include> -->
+			    </methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="vijaya node">
+		<parameter name="nodeURL" value="http://192.168.0.153:5555/wd/hub"></parameter>
+		<parameter name="br" value="chrome"></parameter>
+		<classes>
+			<class name="in.srssprojects.admin.GridExecution">
+			    <methods>
+			        <include name="loginAsAdmin"></include>
+			        <!-- <include name="branchCreationWithDData"></include> -->
+			    </methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="saroja node">
+		<parameter name="nodeURL" value="http://192.168.0.135:5555/wd/hub"></parameter>
+		<parameter name="br" value="safari"></parameter>
+		<classes>
+			<class name="in.srssprojects.admin.GridExecution">
+			    <methods>
+			        <include name="loginAsAdmin"></include>
+			        <!-- <include name="branchCreationWithDData"></include> -->
+			    </methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="haritha node">
+		<parameter name="nodeURL" value="http://192.168.0.195:5555/wd/hub"></parameter>
+		<parameter name="br" value="chrome"></parameter>
+		<classes>
+			<class name="in.srssprojects.admin.GridExecution">
+			    <methods>
+			        <include name="loginAsAdmin"></include>
+			        <!-- <include name="branchCreationWithDData"></include> -->
+			    </methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="kalyani node">
+		<parameter name="nodeURL" value="http://192.168.0.185:5555/wd/hub"></parameter>
+		<parameter name="br" value="chrome"></parameter>
+		<classes>
+			<class name="in.srssprojects.admin.GridExecution">
+			    <methods>
+			        <include name="loginAsAdmin"></include>
+			        <!-- <include name="branchCreationWithDData"></include> -->
+			    </methods>
+			</class>
+		</classes>
+	</test> 
+	
+</suite> <!-- Suite -->

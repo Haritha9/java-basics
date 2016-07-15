@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="in.srssprojects.admin.TestExecution">
+        <methods>
+          <include name="roleUpadationWithVD"/>
+          <include name="employeeCreationReset"/>
+          <include name="employeeCreationWBlankData"/>
+          <include name="BeforeSuiteMethod"/>
+          <include name="branchCreationCancel"/>
+          <include name="loginAsAdmin"/>
+          <include name="bracnhCreationCancelAfterFillingTheData"/>
+          <include name="employeeCreationWVD"/>
+          <include name="roleCreationWithDData"/>
+          <include name="roleCreationWithBlankData"/>
+          <include name="branchDeletionWODependency"/>
+          <include name="roleCreationCancel"/>
+          <include name="roleUpdationCancel"/>
+          <include name="branchCreationReset"/>
+          <include name="roleCreationWithVData"/>
+          <include name="employeeCreationWDD"/>
+          <include name="branchCreationWithVData"/>
+          <include name="roleCreationReset"/>
+          <include name="verifyBranchesButton"/>
+          <include name="branchUpdationWithVData"/>
+          <include name="branchCreationWithBlankData"/>
+          <include name="branchDeletionWithDependency"/>
+          <include name="branchCreationWithDData"/>
+          <include name="loginASEmployee"/>
+          <include name="roleUpadationWithDuplicateData"/>
+        </methods>
+      </class> <!-- in.srssprojects.admin.TestExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

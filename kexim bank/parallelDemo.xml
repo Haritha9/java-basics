@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+    <parameter name="url" value="http://srssprojects.in"></parameter>
+    
+	<test name="Test1">
+	    <parameter name="br" value="firefox"></parameter>
+		<classes>
+			<class name="in.srssprojects.admin.TestExecution">
+				<methods>
+					<include name="loginAsAdmin"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+	    <parameter name="br" value="chrome"></parameter>
+		<classes>
+			<class name="in.srssprojects.admin.TestExecution">
+				<methods>
+					<include name="loginAsAdmin"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test3">
+	    <parameter name="br" value="safari"></parameter>
+		<classes>
+			<class name="in.srssprojects.admin.TestExecution">
+				<methods>
+					<include name="loginAsAdmin"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

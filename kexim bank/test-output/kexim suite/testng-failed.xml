@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [kexim suite]" parallel="none">
+  <test name="kexim Test(failed)" parallel="none">
+    <classes>
+      <class name="in.srssprojects.admin.KeximHomePage">
+        <methods>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- in.srssprojects.admin.KeximHomePage -->
+      <class name="in.srssprojects.admin.TestExecution">
+        <methods>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- in.srssprojects.admin.TestExecution -->
+    </classes>
+  </test> <!-- kexim Test(failed) -->
+</suite> <!-- Failed suite [kexim suite] -->

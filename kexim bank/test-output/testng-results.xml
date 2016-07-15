@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="24" failed="0" total="24" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="468" started-at="2016-07-14T11:11:42Z" finished-at="2016-07-14T11:11:43Z">
+    <groups>
+      <group name="negative">
+        <method signature="TestExecution.loginAsAdmin()[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="loginAsAdmin" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationWithBlankData()[pri:3, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithBlankData" class="in.srssprojects.admin.TestExecution"/>
+      </group> <!-- negative -->
+      <group name="roles">
+        <method signature="TestExecution.loginAsAdmin()[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="loginAsAdmin" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:14, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationCancel" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:13, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationReset" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleCreationWithBlankData()[pri:12, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationWithBlankData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleCreationWithDData()[pri:11, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationWithDData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleCreationWithVData()[pri:10, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationWithVData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleUpadationWithDuplicateData()[pri:16, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleUpadationWithDuplicateData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleUpadationWithVD()[pri:15, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleUpadationWithVD" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleUpdationCancel()[pri:17, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleUpdationCancel" class="in.srssprojects.admin.TestExecution"/>
+      </group> <!-- roles -->
+      <group name="positive">
+        <method signature="TestExecution.loginAsAdmin()[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="loginAsAdmin" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleCreationWithVData()[pri:10, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationWithVData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationWithVData()[pri:1, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithVData" class="in.srssprojects.admin.TestExecution"/>
+      </group> <!-- positive -->
+      <group name="branches">
+        <method signature="TestExecution.bracnhCreationCancelAfterFillingTheData()[pri:6, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="bracnhCreationCancelAfterFillingTheData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationCancel()[pri:5, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationCancel" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationReset()[pri:4, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationReset" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchDeletionWODependency()[pri:9, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchDeletionWODependency" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchDeletionWithDependency()[pri:8, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchDeletionWithDependency" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchUpdationWithVData()[pri:7, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchUpdationWithVData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.loginAsAdmin()[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="loginAsAdmin" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.verifyBranchesButton()[pri:30, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="verifyBranchesButton" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationWithDData()[pri:2, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithDData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationWithVData()[pri:1, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithVData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationWithBlankData()[pri:3, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithBlankData" class="in.srssprojects.admin.TestExecution"/>
+      </group> <!-- branches -->
+      <group name="employee">
+        <method signature="TestExecution.employeeCreationReset()[pri:21, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="employeeCreationReset" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.employeeCreationWBlankData()[pri:20, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="employeeCreationWBlankData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.employeeCreationWDD()[pri:19, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="employeeCreationWDD" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.employeeCreationWVD()[pri:18, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="employeeCreationWVD" class="in.srssprojects.admin.TestExecution"/>
+      </group> <!-- employee -->
+      <group name="creation">
+        <method signature="TestExecution.branchCreationReset()[pri:4, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationReset" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.loginAsAdmin()[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="loginAsAdmin" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.roleCreationWithVData()[pri:10, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationWithVData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationWithDData()[pri:2, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithDData" class="in.srssprojects.admin.TestExecution"/>
+        <method signature="TestExecution.branchCreationWithVData()[pri:1, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithVData" class="in.srssprojects.admin.TestExecution"/>
+      </group> <!-- creation -->
+      <group name="nagative">
+        <method signature="TestExecution.branchCreationWithDData()[pri:2, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithDData" class="in.srssprojects.admin.TestExecution"/>
+      </group> <!-- nagative -->
+    </groups>
+    <test name="Default test" duration-ms="468" started-at="2016-07-14T11:11:42Z" finished-at="2016-07-14T11:11:43Z">
+      <class name="in.srssprojects.admin.TestExecution">
+        <test-method status="PASS" signature="BeforeSuiteMethod()[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="BeforeSuiteMethod" is-config="true" duration-ms="362" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuiteMethod -->
+        <test-method status="FAIL" signature="launchApp(java.lang.String, java.lang.String)[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="launchApp" is-config="true" duration-ms="0" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by @Configuration on method launchApp but has not been marked @Optional or defined
+in C:\Users\Haritha\AppData\Local\Temp\testng-eclipse--1357375130\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by @Configuration on method launchApp but has not been marked @Optional or defined
+in C:\Users\Haritha\AppData\Local\Temp\testng-eclipse--1357375130\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="SKIP" signature="loginAsAdmin()[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="loginAsAdmin" duration-ms="6" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdmin -->
+        <test-method status="SKIP" signature="branchCreationWithBlankData()[pri:3, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithBlankData" duration-ms="9" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchCreationWithBlankData -->
+        <test-method status="SKIP" signature="branchCreationReset()[pri:4, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationReset" duration-ms="10" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchCreationReset -->
+        <test-method status="SKIP" signature="branchCreationCancel()[pri:5, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationCancel" duration-ms="15" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchCreationCancel -->
+        <test-method status="SKIP" signature="bracnhCreationCancelAfterFillingTheData()[pri:6, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="bracnhCreationCancelAfterFillingTheData" duration-ms="4" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bracnhCreationCancelAfterFillingTheData -->
+        <test-method status="SKIP" signature="branchUpdationWithVData()[pri:7, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchUpdationWithVData" duration-ms="6" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchUpdationWithVData -->
+        <test-method status="SKIP" signature="branchDeletionWithDependency()[pri:8, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchDeletionWithDependency" duration-ms="5" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchDeletionWithDependency -->
+        <test-method status="SKIP" signature="branchDeletionWODependency()[pri:9, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchDeletionWODependency" duration-ms="6" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchDeletionWODependency -->
+        <test-method status="SKIP" signature="roleCreationWithVData()[pri:10, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationWithVData" duration-ms="5" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreationWithVData -->
+        <test-method status="SKIP" signature="roleCreationWithDData()[pri:11, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationWithDData" duration-ms="6" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreationWithDData -->
+        <test-method status="SKIP" signature="roleCreationWithBlankData()[pri:12, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationWithBlankData" duration-ms="6" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreationWithBlankData -->
+        <test-method status="SKIP" signature="roleCreationReset()[pri:13, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationReset" duration-ms="7" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreationReset -->
+        <test-method status="SKIP" signature="roleCreationCancel()[pri:14, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleCreationCancel" duration-ms="4" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleCreationCancel -->
+        <test-method status="SKIP" signature="roleUpadationWithVD()[pri:15, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleUpadationWithVD" duration-ms="3" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleUpadationWithVD -->
+        <test-method status="SKIP" signature="roleUpadationWithDuplicateData()[pri:16, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleUpadationWithDuplicateData" duration-ms="10" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleUpadationWithDuplicateData -->
+        <test-method status="SKIP" signature="roleUpdationCancel()[pri:17, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="roleUpdationCancel" duration-ms="19" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleUpdationCancel -->
+        <test-method status="SKIP" signature="employeeCreationWVD()[pri:18, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="employeeCreationWVD" duration-ms="4" started-at="2016-07-14T16:41:42Z" finished-at="2016-07-14T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeCreationWVD -->
+        <test-method status="SKIP" signature="employeeCreationWDD()[pri:19, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="employeeCreationWDD" duration-ms="10" started-at="2016-07-14T16:41:43Z" finished-at="2016-07-14T16:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeCreationWDD -->
+        <test-method status="SKIP" signature="employeeCreationWBlankData()[pri:20, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="employeeCreationWBlankData" duration-ms="2" started-at="2016-07-14T16:41:43Z" finished-at="2016-07-14T16:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeCreationWBlankData -->
+        <test-method status="SKIP" signature="employeeCreationReset()[pri:21, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="employeeCreationReset" duration-ms="2" started-at="2016-07-14T16:41:43Z" finished-at="2016-07-14T16:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeCreationReset -->
+        <test-method status="SKIP" signature="loginASEmployee()[pri:23, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="loginASEmployee" duration-ms="3" started-at="2016-07-14T16:41:43Z" finished-at="2016-07-14T16:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginASEmployee -->
+        <test-method status="SKIP" signature="verifyBranchesButton()[pri:30, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="verifyBranchesButton" duration-ms="4" started-at="2016-07-14T16:41:43Z" finished-at="2016-07-14T16:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBranchesButton -->
+        <test-method status="SKIP" signature="branchCreationWithVData()[pri:1, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithVData" duration-ms="0" started-at="2016-07-14T16:41:43Z" depends-on-methods="in.srssprojects.admin.TestExecution.verifyBranchesButton" finished-at="2016-07-14T16:41:43Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestExecution.branchCreationWithVData()[pri:1, instance:in.srssprojects.admin.TestExecution@ae45eb6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestExecution.branchCreationWithVData()[pri:1, instance:in.srssprojects.admin.TestExecution@ae45eb6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchCreationWithVData -->
+        <test-method status="SKIP" signature="branchCreationWithDData()[pri:2, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="branchCreationWithDData" duration-ms="0" started-at="2016-07-14T16:41:43Z" depends-on-methods="in.srssprojects.admin.TestExecution.verifyBranchesButton" finished-at="2016-07-14T16:41:43Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestExecution.branchCreationWithDData()[pri:2, instance:in.srssprojects.admin.TestExecution@ae45eb6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestExecution.branchCreationWithDData()[pri:2, instance:in.srssprojects.admin.TestExecution@ae45eb6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchCreationWithDData -->
+        <test-method status="SKIP" signature="afterSuiteMethod()[pri:0, instance:in.srssprojects.admin.TestExecution@ae45eb6]" name="afterSuiteMethod" is-config="true" duration-ms="0" started-at="2016-07-14T16:41:43Z" finished-at="2016-07-14T16:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- in.srssprojects.admin.TestExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

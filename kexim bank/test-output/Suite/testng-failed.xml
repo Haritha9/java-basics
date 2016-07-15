@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="br" value="firefox"/>
+  <parameter name="url" value="http://srssprojects.in"/>
+  <listeners>
+    <listener class-name="in.srssprojects.utils.TestLIstener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="br" value="firefox"/>
+    <classes>
+      <class name="in.srssprojects.admin.TestExecution">
+        <methods>
+          <include name="afterSuiteMethod"/>
+          <include name="BeforeSuiteMethod"/>
+          <include name="branchCreationWithVData"/>
+          <include name="branchCreationWithBlankData"/>
+          <include name="loginAsAdmin"/>
+          <include name="verifyBranchesButton"/>
+          <include name="branchCreationWithDData"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- in.srssprojects.admin.TestExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

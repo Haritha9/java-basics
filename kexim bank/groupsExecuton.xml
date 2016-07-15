@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+
+	<test name="Mulitiple groups">
+		<groups>
+			<run>
+				<include name="branches"></include>
+				<include name="creation"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="in.srssprojects.admin.TestExecution" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="group of groups">
+		<groups>
+			<define name="branch creation">
+				<include name="branches"></include>
+				<inlcude name="creation"></inlcude>
+			</define>
+			<define name="role creation">
+				<include name="roles"></include>
+				<include name="creation"></include>
+			</define>
+			<run>
+				<include name="branch creation"></include>
+				<include name="role creation"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="in.srssprojects.admin.TestExecution" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-skipped">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Haritha\AppData\Local\Temp\testng-eclipse--1357375130\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>7 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,  24 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="bracnhCreationCancelAfterFillingTheData">bracnhCreationCancelAfterFillingTheData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="branchCreationCancel">branchCreationCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="branchCreationReset">branchCreationReset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="branchCreationWithBlankData">branchCreationWithBlankData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="branchCreationWithDData">branchCreationWithDData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="branchCreationWithVData">branchCreationWithVData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="branchDeletionWODependency">branchDeletionWODependency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="branchDeletionWithDependency">branchDeletionWithDependency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="branchUpdationWithVData">branchUpdationWithVData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="employeeCreationReset">employeeCreationReset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="employeeCreationWBlankData">employeeCreationWBlankData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="employeeCreationWDD">employeeCreationWDD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="employeeCreationWVD">employeeCreationWVD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="loginASEmployee">loginASEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="loginAsAdmin">loginAsAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="roleCreationCancel">roleCreationCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="roleCreationReset">roleCreationReset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="roleCreationWithBlankData">roleCreationWithBlankData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="roleCreationWithDData">roleCreationWithDData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="roleCreationWithVData">roleCreationWithVData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="roleUpadationWithDuplicateData">roleUpadationWithDuplicateData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="roleUpadationWithVD">roleUpadationWithVD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="roleUpdationCancel">roleUpdationCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="in.srssprojects.admin.TestExecution" hash-for-method="verifyBranchesButton">verifyBranchesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">in.srssprojects.admin.TestExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bracnhCreationCancelAfterFillingTheData">
+                  </a> <!-- bracnhCreationCancelAfterFillingTheData -->
+                  <span class="method-name">bracnhCreationCancelAfterFillingTheData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="branchCreationCancel">
+                  </a> <!-- branchCreationCancel -->
+                  <span class="method-name">branchCreationCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="branchCreationReset">
+                  </a> <!-- branchCreationReset -->
+                  <span class="method-name">branchCreationReset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="branchCreationWithBlankData">
+                  </a> <!-- branchCreationWithBlankData -->
+                  <span class="method-name">branchCreationWithBlankData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="branchCreationWithDData">
+                  </a> <!-- branchCreationWithDData -->
+                  <span class="method-name">branchCreationWithDData</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestExecution.branchCreationWithDData()[pri:2, instance:in.srssprojects.admin.TestExecution@ae45eb6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="branchCreationWithVData">
+                  </a> <!-- branchCreationWithVData -->
+                  <span class="method-name">branchCreationWithVData</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestExecution.branchCreationWithVData()[pri:1, instance:in.srssprojects.admin.TestExecution@ae45eb6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="branchDeletionWODependency">
+                  </a> <!-- branchDeletionWODependency -->
+                  <span class="method-name">branchDeletionWODependency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="branchDeletionWithDependency">
+                  </a> <!-- branchDeletionWithDependency -->
+                  <span class="method-name">branchDeletionWithDependency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="branchUpdationWithVData">
+                  </a> <!-- branchUpdationWithVData -->
+                  <span class="method-name">branchUpdationWithVData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeCreationReset">
+                  </a> <!-- employeeCreationReset -->
+                  <span class="method-name">employeeCreationReset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeCreationWBlankData">
+                  </a> <!-- employeeCreationWBlankData -->
+                  <span class="method-name">employeeCreationWBlankData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeCreationWDD">
+                  </a> <!-- employeeCreationWDD -->
+                  <span class="method-name">employeeCreationWDD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeCreationWVD">
+                  </a> <!-- employeeCreationWVD -->
+                  <span class="method-name">employeeCreationWVD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginASEmployee">
+                  </a> <!-- loginASEmployee -->
+                  <span class="method-name">loginASEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAsAdmin">
+                  </a> <!-- loginAsAdmin -->
+                  <span class="method-name">loginAsAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreationCancel">
+                  </a> <!-- roleCreationCancel -->
+                  <span class="method-name">roleCreationCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreationReset">
+                  </a> <!-- roleCreationReset -->
+                  <span class="method-name">roleCreationReset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreationWithBlankData">
+                  </a> <!-- roleCreationWithBlankData -->
+                  <span class="method-name">roleCreationWithBlankData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreationWithDData">
+                  </a> <!-- roleCreationWithDData -->
+                  <span class="method-name">roleCreationWithDData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleCreationWithVData">
+                  </a> <!-- roleCreationWithVData -->
+                  <span class="method-name">roleCreationWithVData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleUpadationWithDuplicateData">
+                  </a> <!-- roleUpadationWithDuplicateData -->
+                  <span class="method-name">roleUpadationWithDuplicateData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleUpadationWithVD">
+                  </a> <!-- roleUpadationWithVD -->
+                  <span class="method-name">roleUpadationWithVD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roleUpdationCancel">
+                  </a> <!-- roleUpdationCancel -->
+                  <span class="method-name">roleUpdationCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBranchesButton">
+                  </a> <!-- verifyBranchesButton -->
+                  <span class="method-name">verifyBranchesButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Haritha\AppData\Local\Temp\testng-eclipse--1357375130\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;in.srssprojects.admin.TestExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">branches</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bracnhCreationCancelAfterFillingTheData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationCancel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationReset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationWithBlankData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationWithDData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationWithVData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchDeletionWODependency</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchDeletionWithDependency</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchUpdationWithVData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginAsAdmin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBranchesButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">creation</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationReset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationWithDData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationWithVData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginAsAdmin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleCreationWithVData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">employee</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">employeeCreationReset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">employeeCreationWBlankData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">employeeCreationWDD</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">employeeCreationWVD</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">nagative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationWithDData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationWithBlankData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginAsAdmin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">positive</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">branchCreationWithVData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginAsAdmin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleCreationWithVData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">roles</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginAsAdmin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleCreationCancel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleCreationReset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleCreationWithBlankData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleCreationWithDData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleCreationWithVData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleUpadationWithDuplicateData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleUpadationWithVD</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">roleUpdationCancel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'roleUpdationCancel')
+data.setCell(0, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(0, 3, 19);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'branchCreationCancel')
+data.setCell(1, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(1, 3, 15);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'branchCreationReset')
+data.setCell(2, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(2, 3, 10);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'roleUpadationWithDuplicateData')
+data.setCell(3, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(3, 3, 10);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'employeeCreationWDD')
+data.setCell(4, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(4, 3, 10);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'branchCreationWithBlankData')
+data.setCell(5, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(5, 3, 9);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'roleCreationReset')
+data.setCell(6, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(6, 3, 7);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'branchUpdationWithVData')
+data.setCell(7, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(7, 3, 6);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'roleCreationWithDData')
+data.setCell(8, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(8, 3, 6);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'roleCreationWithBlankData')
+data.setCell(9, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(9, 3, 6);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'branchDeletionWODependency')
+data.setCell(10, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(10, 3, 6);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginAsAdmin')
+data.setCell(11, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(11, 3, 6);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'roleCreationWithVData')
+data.setCell(12, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(12, 3, 5);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'branchDeletionWithDependency')
+data.setCell(13, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(13, 3, 5);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'employeeCreationWVD')
+data.setCell(14, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(14, 3, 4);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyBranchesButton')
+data.setCell(15, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(15, 3, 4);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'bracnhCreationCancelAfterFillingTheData')
+data.setCell(16, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(16, 3, 4);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'roleCreationCancel')
+data.setCell(17, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(17, 3, 4);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'roleUpadationWithVD')
+data.setCell(18, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(18, 3, 3);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginASEmployee')
+data.setCell(19, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(19, 3, 3);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'employeeCreationWBlankData')
+data.setCell(20, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'employeeCreationReset')
+data.setCell(21, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(21, 3, 2);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'branchCreationWithVData')
+data.setCell(22, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'branchCreationWithDData')
+data.setCell(23, 2, 'in.srssprojects.admin.TestExecution')
+data.setCell(23, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 146 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">in.srssprojects.admin.TestExecution</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">branchCreationWithMultipleData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">in.srssprojects.admin.TestExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuiteMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">loginAsAdmin</span>
+                <span class="method-start">433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">branchCreationWithBlankData</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">branchCreationReset</span>
+                <span class="method-start">469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">branchCreationCancel</span>
+                <span class="method-start">486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bracnhCreationCancelAfterFillingTheData</span>
+                <span class="method-start">514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">branchUpdationWithVData</span>
+                <span class="method-start">524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">branchDeletionWithDependency</span>
+                <span class="method-start">536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">branchDeletionWODependency</span>
+                <span class="method-start">547 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreationWithVData</span>
+                <span class="method-start">560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreationWithDData</span>
+                <span class="method-start">571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreationWithBlankData</span>
+                <span class="method-start">582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreationReset</span>
+                <span class="method-start">604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleCreationCancel</span>
+                <span class="method-start">631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleUpadationWithVD</span>
+                <span class="method-start">655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleUpadationWithDuplicateData</span>
+                <span class="method-start">684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roleUpdationCancel</span>
+                <span class="method-start">708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">employeeCreationWVD</span>
+                <span class="method-start">747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">employeeCreationWDD</span>
+                <span class="method-start">756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">employeeCreationWBlankData</span>
+                <span class="method-start">769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">employeeCreationReset</span>
+                <span class="method-start">774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginASEmployee</span>
+                <span class="method-start">796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBranchesButton</span>
+                <span class="method-start">802 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
